@@ -1,0 +1,37 @@
+Component: 
+-TypeScript file
+-HTML file
+-CSS file
+-(Test file)
+
+
+Part of a page
+Website
+*[App-Component]:
+[Nav-bar Component]
+[Side-bar-Compoent]
+[Main-body Component]
+[Footer-Component]
+
+*[Main-body Component]:
+[Profile-Component]
+[Home-Component]
+[Group-Component]
+[Page-Component]
+
+*[Page Component]:
+[Button-Component]
+[Image-Component]
+[Post-Component]
+[Intro-Component]
+[Photos-Component]
+
+*[Post-Component]:
+[Text-Area-Component]
+[Button-Component]
+
+To make a component:
+ng generate component components/component-name
+
+In app.component.html, write:
+<router-outlet></router-outlet>
