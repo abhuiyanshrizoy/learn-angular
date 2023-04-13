@@ -44,3 +44,12 @@ ng generate component components/component-name
 <app-nav-bar></app-nav-bar>
 
 In this way we can make more sub components and add it in app component.
+
+app.component.html
+<app-nav-bar></app-nav-bar>
+
+If nav-bar.component.html contains this text:
+Navbar exists here
+
+Create many components and make it workable and place the selector name in app.component.html,
+from your project.
