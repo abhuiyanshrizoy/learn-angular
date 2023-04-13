@@ -34,4 +34,13 @@ To make a component:
 ng generate component components/component-name
 
 In app.component.html, write:
-<router-outlet></router-outlet>
+(Not Now: Do it later) router-outlet></router-outlet>
+
+To create a new component, write the component create command:
+Example:
+ng generate component components/nav-bar
+Go to nav-bar.component.ts and copy the selector name and paste it as html tag in app component:
+ng generate component components/component-name
+<app-nav-bar></app-nav-bar>
+
+In this way we can make more sub components and add it in app component.
