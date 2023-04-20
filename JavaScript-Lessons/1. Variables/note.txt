@@ -91,3 +91,30 @@ let marks = prompt("Enter your marks: ");
 //Type Conversion
 marks = Number(marks); ////String()
 console.log(marks);
+
+//Conditional Statements(IF Else)
+let marks = Number(prompt("Enter your marks: "));
+
+/*
+if (marks > 10)
+{
+    console.log("Pass");
+}
+else
+{
+    console.log("Fail");
+}
+*/
+
+if (marks == 20)
+{
+    console.log("Highest Score");
+} 
+else if (marks > 10)
+{
+    console.log("Pass");
+}
+else
+{
+    console.log("Fail");
+}
