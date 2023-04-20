@@ -1,0 +1,20 @@
+// means comment
+
+Variables
+//In general used variables - var
+var fruit = "apple"; //
+var marks = 20;
+var hasWon = true; //Boolean - true, false
+console.log(fruit);
+console.log(marks);
+console.log(hasWon);
+
+//Recent time used variable type when variable values can change - let
+let newMarks = 20;
+let sports = "football";
+sports = "cricket";
+console.log(sports);
+
+//Recent time used variable type when variable value remains same - const
+const gender = "Male";
+console.log(gender);
