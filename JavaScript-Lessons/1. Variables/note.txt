@@ -41,3 +41,26 @@ console.log(typeof(studentAyush)); //object
 //string concatination
 console.log(studentAyush.gender + ", " + studentAyush.name); 
 console.log("Name: " + studentAyush.name);
+
+//Variable assignment
+let numberOne = 5;
+let numberTwo = 7;
+
+//console.log(numberOne + numberTwo); 
+//numberOne = numberOne + numberTwo;
+//numberOne += numberTwo;
+//console.log(numberOne);
+
+//numberOne -= numberTwo; //-2
+//numberTwo -= numberOne; //2
+//console.log(numberTwo);
+
+//Multiplication - *
+//Division - /
+
+//Mod Operator
+//console.log(numberTwo % numberOne);
+
+//Power 
+console.log(2 ** 2); //4
+console.log(2 ** 3);
