@@ -25,3 +25,15 @@ console.log(typeof(1)); //number
 console.log(typeof(gender)); //string
 console.log(typeof(false)); //boolean
 console.log(typeof(true)); //boolean
+
+//Objects
+let studentAyush = { 
+  name: 'Ayush', 
+  gender: 'Male', 
+  age: 12,
+  class: 'VI' 
+};
+
+console.log(studentAyush.name);
+console.log(studentAyush.gender);
+console.log(typeof(studentAyush)); //object
