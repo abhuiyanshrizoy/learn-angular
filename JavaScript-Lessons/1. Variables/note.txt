@@ -140,3 +140,39 @@ function addString(stringOne, stringTwo)
 
 addString("Hello", " World");
 addString("Ayush", " Bhuiyan");
+
+//HTML Events
+
+Example
+(onclick):
+
+<button onclick="myFunction()">Click me</button>
+
+<script>
+function myFunction() {
+  console.log("Button Clicked");
+}
+</script>
+
+(onkeypress):
+<input type="text" onkeypress="myFunction()">
+
+<script>
+function myFunction() {
+  alert("You pressed a key inside the input field");
+}
+</script>
+
+ontoggle and many more:
+//Source- w3school
+<details ontoggle="myFunction()">
+<summary>Copyright 1999-2014.</summary>
+<p> - by Refsnes Data. All Rights Reserved.</p>
+<p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
+
+<script>
+function myFunction() {
+  alert("The ontoggle event occured");
+}
+</script>
