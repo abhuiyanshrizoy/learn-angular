@@ -118,3 +118,25 @@ else
 {
     console.log("Fail");
 }
+
+
+//Function
+//With return type
+function add(numberOne, numberTwo)
+{
+    return numberOne + numberTwo;
+}
+
+let numberOne = Number(prompt("Enter first number: "));
+let numberTwo = Number(prompt("Enter second number: "));
+
+console.log(add(numberOne, numberTwo));
+
+//Without return type
+function addString(stringOne, stringTwo)
+{
+    console.log(stringOne + stringTwo);
+}
+
+addString("Hello", " World");
+addString("Ayush", " Bhuiyan");
