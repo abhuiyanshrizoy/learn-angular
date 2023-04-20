@@ -37,3 +37,4 @@ let studentAyush = {
 console.log(studentAyush.name);
 console.log(studentAyush.gender);
 console.log(typeof(studentAyush)); //object
+console.log(studentAyush.gender + ", " + studentAyush.name); //string concatination
