@@ -18,3 +18,10 @@ console.log(sports);
 //Recent time used variable type when variable value remains same - const
 const gender = "Male";
 console.log(gender);
+
+//Data Type
+console.log(typeof("Hello"));  //string
+console.log(typeof(1)); //number
+console.log(typeof(gender)); //string
+console.log(typeof(false)); //boolean
+console.log(typeof(true)); //boolean
