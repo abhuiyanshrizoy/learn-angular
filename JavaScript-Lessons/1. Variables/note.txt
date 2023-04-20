@@ -84,3 +84,10 @@ for(let i = 0; i < fruitList.length; i++)
 {
     console.log(fruitList[i]);
 }
+
+//User Input
+let marks = prompt("Enter your marks: ");
+
+//Type Conversion
+marks = Number(marks); ////String()
+console.log(marks);
