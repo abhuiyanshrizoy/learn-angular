@@ -73,3 +73,14 @@ fruitList[0] = "jackfruit";
 console.log(fruitList);
 console.log(basketList);
 console.log(fruitList[1]);
+
+//FOR - LOOP
+for(let i = 0; i < 10; i++)
+{
+    console.log(i);
+}
+
+for(let i = 0; i < fruitList.length; i++)
+{
+    console.log(fruitList[i]);
+}
