@@ -64,3 +64,12 @@ let numberTwo = 7;
 //Power 
 console.log(2 ** 2); //4
 console.log(2 ** 3);
+
+//Array
+let fruitList = ["apple", "mango", "banana"];
+basketList = fruitList;
+console.log(basketList);
+fruitList[0] = "jackfruit";
+console.log(fruitList);
+console.log(basketList);
+console.log(fruitList[1]);
